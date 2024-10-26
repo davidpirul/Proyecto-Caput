@@ -1,0 +1,18 @@
+.img-ideas {
+  max-width: 85%;
+  margin: 2rem;
+}
+
+.texto-presentacion {
+  text-align: center;
+}
+
+.div-presentacion {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  max-width: 99%;
+}
+.div-perfiles {
+  display: flex;
+  text-align: center;
+}

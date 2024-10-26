@@ -1,0 +1,20 @@
+.navcont {
+  padding: 1rem;
+  text-align: center;
+}
+.logocaput {
+  align-items: center;
+  padding: 1rem;
+}
+
+.logocaput img {
+  margin: 0 0.5rem 0 0,5rem;
+}
+
+.logocaput a {
+margin: 0 0.5rem 0 0.5rem;
+}
+
+.headerlogo {
+  width: 7rem;
+}

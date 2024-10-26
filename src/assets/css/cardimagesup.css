@@ -1,0 +1,13 @@
+.sup-image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  justify-content: center;
+  gap: 1em;
+}
+.sup-image-layout {
+  width: 22em;
+  height: 15em;
+  object-fit: cover;
+  object-position: top;
+}
