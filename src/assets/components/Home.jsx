@@ -7,8 +7,6 @@ export default function LandingPage() {
     <div>
       <Header />
       <Body />
-      <header>
-      </header>
       <Footer />
     </div>
   )
