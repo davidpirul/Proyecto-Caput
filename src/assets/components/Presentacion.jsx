@@ -28,19 +28,27 @@ export default function Presentacion() {
             Trabajamos tramas border, cruzando cotidianidades de cada lugar con exploraciones sobre problemáticas, geografías, deseos y/o habilidades de cada comunidad. Esto nos acerca a una práctica real, desestabilizando patrones y conductas enfocadas en los estereotipos y prejuicios, para luego ser realzadas como un gesto deconstructivo, mediante la concepción de un/a activismo-agitación, o como configuración (micro)política de una gestión, una obra o una acción.
           </p>
         </div>
-        <img src={divisionCaput} alt='division-caput' className='div-presentacion' />
-        <div className='div-perfiles'>
-          <div className='perfil'>
-            <img src={perfilExample} alt='perfil1' />
-            <h5>Lorem, ipsum dolor.</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nulla quos sapiente? Ullam, placeat amet!</p>
+        <Container>
+          <div >
+            <div>
+              <img src={divisionCaput} alt='division-caput' className='div-presentacion' />
+            </div>
+            <div className='div-perfiles'>
+              <div className='perfil'>
+                <div>
+                  <img src={perfilExample} className='photo-perfil' alt='photo-perfil' />
+                </div>
+                <h5>Lorem, ipsum dolor.</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nulla quos sapiente? Ullam, placeat amet!</p>
+              </div>
+              <div className='perfil'>
+                <img src={perfilExample} className='photo-perfil' alt='photo-perfil' />
+                <h5>Lorem, ipsum dolor.</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nulla quos sapiente? Ullam, placeat amet!</p>
+              </div>
+            </div>
           </div>
-          <div>
-            <img src={perfilExample} alt='perfil2' />
-            <h5>Lorem, ipsum dolor.</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus corrupti, perferendis vitae saepe eaque maxime.</p>
-          </div>
-        </div>
+        </Container>
       </Container>
     </>
   )

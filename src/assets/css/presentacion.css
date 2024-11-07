@@ -8,11 +8,27 @@
 }
 
 .div-presentacion {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
   max-width: 99%;
 }
 .div-perfiles {
   display: flex;
   text-align: center;
+  justify-content: space-evenly;
+  width: 95%;
+}
+
+.perfil {
+  width: 10rem;
+}
+.perfil h5 {
+ margin-bottom: 1rem;
+}
+.photo-perfil {
+width: 10rem;
+height: 10rem;
+border-radius: 100%;
+object-fit: cover;
+margin-bottom: 1rem;
 }

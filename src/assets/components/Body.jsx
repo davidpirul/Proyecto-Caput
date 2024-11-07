@@ -6,7 +6,7 @@ import '../css/cardimagesup.css';
 export default function Body() {
   return (
     <>
-      <Container  className='sup-image-grid'>
+      <Container className='sup-image-grid'>
         <CardImageSup
           linkImagenCaput='https://i.ibb.co/5jt3dbj/Recurso-18.png'
           altImageCaput='recurso18'
@@ -30,9 +30,13 @@ export default function Body() {
         <CardImageSup />
         <CardImageSup />
         <CardImageSup />
+
       </Container>
-     <hr />
-     <Presentacion />
+      <Container>
+        <hr />
+      </Container>
+
+      <Presentacion />
     </>
   );
 }
