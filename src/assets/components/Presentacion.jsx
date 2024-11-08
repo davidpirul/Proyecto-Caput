@@ -4,7 +4,7 @@ import '../css/presentacion.css';
 export default function Presentacion() {
   let caputIdeas = 'https://i.ibb.co/42JNTyD/colectivocaput-hotglue.jpg';
   let divisionCaput = 'https://i.ibb.co/P5GpBv4/separador.png';
-  let perfilExample = 'https://i.ibb.co/X2pr44t/Recurso-16.png'
+  let perfilExample = 'https://i.ibb.co/D7xmZj3/profileback.png'
   return (
     <>
       <Container>

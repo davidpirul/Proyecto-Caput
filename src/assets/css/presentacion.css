@@ -1,3 +1,18 @@
+h1 {
+  font-size: 5.83em;
+  font-weight: 800;
+}
+
+h6 {
+  font-size: 3.33em;
+  font-style: italic;
+
+}
+
+p {
+  font-size: 1.5em;
+}
+
 .img-ideas {
   max-width: 85%;
   margin: 2rem;
@@ -12,6 +27,7 @@
   margin-bottom: 7rem;
   max-width: 99%;
 }
+
 .div-perfiles {
   display: flex;
   text-align: center;
@@ -20,15 +36,22 @@
 }
 
 .perfil {
-  width: 10rem;
+  width: 25%;
 }
+
+.perfil p {
+  font-size: 1.17em;
+}
+
 .perfil h5 {
- margin-bottom: 1rem;
+  font-size: 1.92em;
+  margin-bottom: 1rem;
 }
+
 .photo-perfil {
-width: 10rem;
-height: 10rem;
-border-radius: 100%;
-object-fit: cover;
-margin-bottom: 1rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
 }

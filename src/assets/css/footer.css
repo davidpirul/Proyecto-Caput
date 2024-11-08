@@ -1,6 +1,69 @@
 .footer-back {
   background-color: #191919;
   background-repeat: round;
-  height: 25rem;
-  
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  padding: 2em 0.5em 2em 0.5em;
+}
+
+.display-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.titulo-footer h1{
+  font-size: 2.5em;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+
+}
+
+.list-footer {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.map-footer {
+  display: flex;
+  flex-direction: column;
+text-align: left;
+}
+
+.map-footer p {
+  font-size: 1em;
+}
+
+.fundadores-list {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.fundadores-list a{
+  font-style: italic;
+}
+
+h7 {
+  font-size: 1.5em;
+}
+
+li {
+  font-size: 1em;
+  text-align: left;
+}
+
+.titulo-footer img{
+width: 19em;
+justify-content: center;
+}
+
+
+.map-footer img{
+ width: 15em;
 }

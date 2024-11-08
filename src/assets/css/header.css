@@ -12,9 +12,11 @@
 }
 
 .logocaput a {
+  font-size: 1.2em;
 margin: 0 0.5rem 0 0.5rem;
 }
 
 .headerlogo {
-  width: 7rem;
+  width: 10em;
 }
+
