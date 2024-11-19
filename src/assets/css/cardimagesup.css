@@ -11,3 +11,13 @@
   object-fit: cover;
   object-position: top;
 }
+
+@media (max-width: 576px) {
+  .sup-image-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-between;
+    justify-content: center;
+    gap: 1em;
+  }
+}

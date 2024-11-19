@@ -29,15 +29,13 @@ export default function Presentacion() {
           </p>
         </div>
         <Container>
-          <div >
+          <div>
             <div>
               <img src={divisionCaput} alt='division-caput' className='div-presentacion' />
             </div>
             <div className='div-perfiles'>
               <div className='perfil'>
-                <div>
-                  <img src={perfilExample} className='photo-perfil' alt='photo-perfil' />
-                </div>
+                <img src={perfilExample} className='photo-perfil' alt='photo-perfil' />
                 <h5>Lorem, ipsum dolor.</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nulla quos sapiente? Ullam, placeat amet!</p>
               </div>

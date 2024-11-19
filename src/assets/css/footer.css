@@ -67,3 +67,17 @@ justify-content: center;
 .map-footer img{
  width: 15em;
 }
+
+@media (max-width: 576px) {
+  .list-footer {
+    display: none;
+  }
+
+  .map-footer {
+    display: none;
+  }
+
+  .fundadores-list{
+    display: none;
+  }
+}
