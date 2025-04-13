@@ -1,8 +1,10 @@
 import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap';
 import '../css/header.css';
-import logo from '../images/caputnegro.png';
 
 export default function Header() {
+
+  const logo = 'https://i.ibb.co/p6V41zFh/caputblanco.png';
+
   return (
     <>
       <div className='navcont'>

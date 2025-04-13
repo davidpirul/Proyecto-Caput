@@ -1,5 +1,5 @@
 import { Container } from 'react-bootstrap';
-import Carousel  from 'react-bootstrap/Carousel';
+import Carousel from 'react-bootstrap/Carousel';
 import CardImageSup from './CardImageSup';
 import Presentacion from './Presentacion'
 import '../css/cardimagesup.css';
@@ -16,7 +16,7 @@ export default function Body() {
 
   return (
     <>
-<Container className="sup-image-carousel">
+      <Container fluid='false' className="sup-image-carousel">
         <Carousel>
           {images.map((image, index) => (
             <Carousel.Item key={index}>
@@ -29,19 +29,6 @@ export default function Body() {
           ))}
         </Carousel>
       </Container>
-{/* 
-      <Container className='sup-image-grid'>
-        {images.map((image, index) => (
-          <CardImageSup
-            key={index}
-            linkImagenCaput={image.link}
-            altImageCaput={image.alt}
-          />
-        ))}
-        <CardImageSup />
-        <CardImageSup />
-        <CardImageSup />
-      </Container> */}
       <Container>
         <hr />
       </Container>
