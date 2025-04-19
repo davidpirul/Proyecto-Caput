@@ -39,14 +39,19 @@
 }
 
 .img-rot-fondo {
-  position: absolute; /* Posiciona la imagen en el fondo */
+  position: absolute;
+  /* Posiciona la imagen en el fondo */
   top: 110%;
   left: 0;
-  width: 20%; /* Asegura que ocupe todo el ancho */
-  object-fit: cover; /* Ajusta la imagen sin deformarla */
-  z-index: -1; /* Envía la imagen al fondo */
+  width: 20%;
+  /* Asegura que ocupe todo el ancho */
+  object-fit: cover;
+  /* Ajusta la imagen sin deformarla */
+  z-index: -1;
+  /* Envía la imagen al fondo */
   overflow: hidden;
-  animation: rotate-bg 18s linear infinite; /* Aplica la animación de rotación */
+  animation: rotate-bg 18s linear infinite;
+  /* Aplica la animación de rotación */
 }
 
 @keyframes rotate-bg {
@@ -83,7 +88,6 @@
   color: #303030;
   width: 100%;
   height: 75vh;
-
   z-index: 1;
 }
 
@@ -121,5 +125,50 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .armado-texto {
+    flex-direction: column;
+    width: 95%;
+    height: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    align-items: center;
+  }
+
+  .tit-presentacion {
+    width: 100%;
+    font-size: 0.9em;
+    text-align: center;
+  }
+
+  .texto-presentacion {
+    font-size: 0.8em;
+    width: 95%;
+  }
+
+  .img-rot-fondo {
+    position: absolute; /* Posiciona la imagen en el fondo */
+    top: 93%;
+    left: 12%;
+    width: 70%; /* Asegura que ocupe todo el ancho */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+    z-index: -1; /* Envía la imagen al fondo */
+    overflow: hidden;
+    animation: rotate-bg 18s linear infinite; /* Aplica la animación de rotación */
+  }
+
+  .cont-perfiles {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .div-perfiles {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .perfil {
+    flex-direction: column;
   }
 }

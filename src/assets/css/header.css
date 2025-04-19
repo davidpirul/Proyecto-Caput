@@ -3,6 +3,9 @@ background-color: #303030;
 color: #f9f9f9
 }
 
+.toggleColor {
+  background-color: #ffe400;
+}
 
 .navcont {
   padding: 1rem;
@@ -31,6 +34,17 @@ color: #f9f9f9
 
 @media (min-width: 576px) {
   .navcont {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .navcont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logocaput {
     display: none;
   }
 }
