@@ -28,7 +28,7 @@
 }
 
 .texto-presentacion {
-  text-align: center;
+  text-align: justify;
   width: 38%;
   font-size: 1em;
   padding: 1%;
@@ -39,19 +39,14 @@
 }
 
 .img-rot-fondo {
-  position: absolute;
-  /* Posiciona la imagen en el fondo */
-  top: 150%;
-  right: 30%;
-  width: 60%;
-  /* Asegura que ocupe todo el ancho */
-  object-fit: cover;
-  /* Ajusta la imagen sin deformarla */
-  z-index: -1;
-  /* Envía la imagen al fondo */
+  position: absolute; /* Posiciona la imagen en el fondo */
+  top: 110%;
+  left: 0;
+  width: 20%; /* Asegura que ocupe todo el ancho */
+  object-fit: cover; /* Ajusta la imagen sin deformarla */
+  z-index: -1; /* Envía la imagen al fondo */
   overflow: hidden;
-  animation: rotate-bg 18s linear infinite;
-  /* Aplica la animación de rotación */
+  animation: rotate-bg 18s linear infinite; /* Aplica la animación de rotación */
 }
 
 @keyframes rotate-bg {
@@ -114,9 +109,11 @@
 }
 
 .photo-perfil {
-  width: 10rem;
-  height: 10rem;
-  margin-bottom: 1rem;
+  width: 350px;
+  height: auto;
+  padding: 2em;
+  object-fit: cover;
+  object-position: center;
 }
 
 @media (max-width: 576px) {

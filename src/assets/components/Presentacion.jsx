@@ -3,14 +3,17 @@ import '../css/presentacion.css';
 
 export default function Presentacion() {
 
-  const perfilExample = 'https://i.ibb.co/D7xmZj3/profileback.png';
-  const imagenDeFondo = 'https://i.ibb.co/DPxfLYXx/Recurso-22.png'
+  const perfilLoreto = 'https://i.ibb.co/TxVNxTwG/imagen2-centrada-400x400.jpg';
+  const perfilCamilo = 'https://i.ibb.co/TDcnQdmR/imagen1-centrada-400x400.jpg';
+  const imagenDeFondo = 'https://i.ibb.co/DPxfLYXx/Recurso-22.png';
+
+
   return (
     <>
       <div className='armado-texto'>
         <div className='tit-presentacion'>
-          <h1>Lorem ipsum dolor sit amet.</h1>
-          <h6>Lorem ipsum dolor sit amet consectetur adipisicing.</h6>
+          <h1>CAPUT TUPAC</h1>
+          <h6>destruir x construir</h6>
         </div>
         <div className='texto-presentacion'>
           <p>
@@ -29,14 +32,14 @@ export default function Presentacion() {
         <div className='cont-perfiles'>
           <div className='div-perfiles'>
             <div className='perfil'>
-              <img src={perfilExample} className='photo-perfil' alt='photo-perfil' />
+              <img src={perfilLoreto} className='photo-perfil' alt='photo-perfil-Loreto' />
               <div className='txt-profiles'>
                 <h5>Loreto Caput</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nulla quos sapiente? Ullam, placeat amet!</p>
               </div>
             </div>
             <div className='perfil'>
-              <img src={perfilExample} className='photo-perfil' alt='photo-perfil' />
+              <img src={perfilCamilo} className='photo-perfil' alt='photo-perfil-Camilo' />
               <div className='txt-profiles'>
                 <h5>Camilo Caput</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nulla quos sapiente? Ullam, placeat amet!</p>

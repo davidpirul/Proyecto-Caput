@@ -29,9 +29,6 @@ export default function Body() {
           ))}
         </Carousel>
       </Container>
-      <Container>
-        <hr />
-      </Container>
       <Presentacion />
     </>
   );
