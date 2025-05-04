@@ -23,6 +23,16 @@ color: #f9f9f9
   padding: 1rem;
 }
 
+.logocaput a {
+  color: #ffe400;
+  text-decoration: none;
+}
+
+.logocaput a:hover {
+  color: #f9f9f9;
+  text-decoration: underline;
+}
+
 .logocaput img {
   margin: 0 0.5rem 0 0, 5rem;
 }
@@ -52,4 +62,10 @@ color: #f9f9f9
 .headerlogo {
   width: 10em;
   height: auto;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.headerlogo:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
