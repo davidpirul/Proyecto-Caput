@@ -31,10 +31,10 @@ export default function Header() {
                   <Offcanvas.Body>
                     <Nav className=" flex-grow-1 pe-3">
                       <Link to='/proyectos' element={<Proyectos />}>Proyectos</Link>
-                      <Link to='/residencias' elemnt={<Residencias />}>Residencias</Link>|
-                      <Link to='charlasytalleres' element={<CharlasTalleres />}>Charlas y Talleres</Link>|
-                      <Link to='/exploraciones' element={<Exploraciones />}>Exploraciones</Link>|
-                      <Link to='/acciones' element={<Acciones />}>Acciones</Link>|
+                      <Link to='/residencias' elemnt={<Residencias />}>Residencias</Link>
+                      <Link to='charlasytalleres' element={<CharlasTalleres />}>Charlas y Talleres</Link>
+                      <Link to='/exploraciones' element={<Exploraciones />}>Exploraciones</Link>
+                      <Link to='/acciones' element={<Acciones />}>Acciones</Link>
                       <Link to='/presentaciones' element={<Presentaciones />}>Presentaciones</Link>
                     </Nav>
                   </Offcanvas.Body>
