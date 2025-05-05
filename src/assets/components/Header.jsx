@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom';
 import '../css/header.css';
 import Proyectos from '../../pages/Proyectos';
 import Residencias from '../../pages/Residencias';
-import CharlasYTalleres from '../../pages/Charlasytalleres';
+import CharlasTalleres from '../../pages/CharlasTalleres';
 import Exploraciones from '../../pages/Exploraciones';
+import Acciones from '../../pages/Acciones';
+import Presentaciones from '../../pages/Presentaciones';
 
 export default function Header() {
 
@@ -30,8 +32,10 @@ export default function Header() {
                     <Nav className=" flex-grow-1 pe-3">
                       <Nav.Link href='/proyectos' >Proyectos</Nav.Link>
                       <Nav.Link href='/residencias'>Residencias</Nav.Link>
-                      <Nav.Link href='/Charlasytalleres'>Charlas y Talleres</Nav.Link>
-                      <Nav.Link href='/Exploraciones'>Exploraciones</Nav.Link>
+                      <Nav.Link href='/charlasytalleres'>Charlas y Talleres</Nav.Link>
+                      <Nav.Link href='/exploraciones'>Exploraciones</Nav.Link>
+                      <Nav.Link href='/acciones'>Acciones</Nav.Link>
+                      <Nav.Link href='/Presentaciones'>Presentaciones</Nav.Link>
                     </Nav>
                   </Offcanvas.Body>
 
@@ -50,10 +54,12 @@ export default function Header() {
         </Link>
     
         <header className='logocaput'>
-          <Link to='/proyectos' element={<Proyectos /> }>Proyectos</Link>
-          <Link to='/residencias' elemnt={<Residencias />}>Residencias</Link>
-          <Link to='charlasytalleres' element={<CharlasYTalleres />}>Charlas y Talleres</Link>
-          <Link to='/exploraciones' element={<Exploraciones />}>Exploraciones</Link>
+          <Link to='/proyectos' element={<Proyectos /> }>Proyectos</Link>|
+          <Link to='/residencias' elemnt={<Residencias />}>Residencias</Link>|
+          <Link to='charlasytalleres' element={<CharlasTalleres />}>Charlas y Talleres</Link>|
+          <Link to='/exploraciones' element={<Exploraciones />}>Exploraciones</Link>|
+          <Link to='/acciones' element={<Acciones />}>Acciones</Link>|
+          <Link to='/presentaciones' element={<Presentaciones />}>Presentaciones</Link>
         </header>
         <hr />
       </Container>

@@ -1,0 +1,66 @@
+[
+  {
+    "id": 2016,
+    "nombre": "Acción 1",
+    "descripcion": "Descripción de la acción 1",
+    "fecha_inicio": "2023-01-01",
+    "fecha_fin": "2023-12-31",
+    "estado": "En progreso"
+  },
+  {
+    "id": 2017,
+    "nombre": "Acción 2",
+    "descripcion": "Descripción de la acción 2",
+    "fecha_inicio": "2023-02-01",
+    "fecha_fin": "2023-11-30",
+    "estado": "Pendiente"
+  },
+  {
+    "id": 2018,
+    "nombre": "Acción 3",
+    "descripcion": "Descripción de la acción 3",
+    "fecha_inicio": "2023-03-01",
+    "fecha_fin": "2023-10-31",
+    "estado": "Completada"
+  },
+  {
+    "id": 2019,
+    "nombre": "Acción 3",
+    "descripcion": "Descripción de la acción 3",
+    "fecha_inicio": "2023-03-01",
+    "fecha_fin": "2023-10-31",
+    "estado": "Completada"
+  },
+  {
+    "id": 2020,
+    "nombre": "Acción 3",
+    "descripcion": "Descripción de la acción 3",
+    "fecha_inicio": "2023-03-01",
+    "fecha_fin": "2023-10-31",
+    "estado": "Completada"
+  },
+  {
+    "id": 2021,
+    "nombre": "Acción 3",
+    "descripcion": "Descripción de la acción 3",
+    "fecha_inicio": "2023-03-01",
+    "fecha_fin": "2023-10-31",
+    "estado": "Completada"
+  },
+  {
+    "id": 2023,
+    "nombre": "Acción 3",
+    "descripcion": "Descripción de la acción 3",
+    "fecha_inicio": "2023-03-01",
+    "fecha_fin": "2023-10-31",
+    "estado": "Completada"
+  },
+  {
+    "id": 2024,
+    "nombre": "Acción 3",
+    "descripcion": "Descripción de la acción 3",
+    "fecha_inicio": "2023-03-01",
+    "fecha_fin": "2023-10-31",
+    "estado": "Completada"
+  }
+]
