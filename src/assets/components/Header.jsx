@@ -30,7 +30,7 @@ export default function Header() {
                   </Offcanvas.Header>
                   <Offcanvas.Body>
                     <Nav className=" flex-grow-1 pe-3">
-                      <Nav.Link href='/proyectos' >Proyectos</Nav.Link>
+                      <Nav.Link to='/proyectos' element={<Proyectos /> }>Proyectos</Nav.Link>
                       <Nav.Link href='/residencias'>Residencias</Nav.Link>
                       <Nav.Link href='/charlasytalleres'>Charlas y Talleres</Nav.Link>
                       <Nav.Link href='/exploraciones'>Exploraciones</Nav.Link>
