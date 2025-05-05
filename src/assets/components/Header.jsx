@@ -30,12 +30,12 @@ export default function Header() {
                   </Offcanvas.Header>
                   <Offcanvas.Body>
                     <Nav className=" flex-grow-1 pe-3">
-                      <Link to='/proyectos' element={<Proyectos /> }>Proyectos</Link>
-                      <Nav.Link href='/residencias'>Residencias</Nav.Link>
-                      <Nav.Link href='/charlasytalleres'>Charlas y Talleres</Nav.Link>
-                      <Nav.Link href='/exploraciones'>Exploraciones</Nav.Link>
-                      <Nav.Link href='/acciones'>Acciones</Nav.Link>
-                      <Nav.Link href='/Presentaciones'>Presentaciones</Nav.Link>
+                      <Link to='/proyectos' element={<Proyectos />}>Proyectos</Link>
+                      <Link to='/residencias' elemnt={<Residencias />}>Residencias</Link>|
+                      <Link to='charlasytalleres' element={<CharlasTalleres />}>Charlas y Talleres</Link>|
+                      <Link to='/exploraciones' element={<Exploraciones />}>Exploraciones</Link>|
+                      <Link to='/acciones' element={<Acciones />}>Acciones</Link>|
+                      <Link to='/presentaciones' element={<Presentaciones />}>Presentaciones</Link>
                     </Nav>
                   </Offcanvas.Body>
 
@@ -50,11 +50,11 @@ export default function Header() {
       </div>
       <Container>
         <Link to='/'>
-        <img alt='caputlogo' src={logo} className='headerlogo' href='index.html' />
+          <img alt='caputlogo' src={logo} className='headerlogo' href='index.html' />
         </Link>
-    
+
         <header className='logocaput'>
-          <Link to='/proyectos' element={<Proyectos /> }>Proyectos</Link>|
+          <Link to='/proyectos' element={<Proyectos />}>Proyectos</Link>|
           <Link to='/residencias' elemnt={<Residencias />}>Residencias</Link>|
           <Link to='charlasytalleres' element={<CharlasTalleres />}>Charlas y Talleres</Link>|
           <Link to='/exploraciones' element={<Exploraciones />}>Exploraciones</Link>|
