@@ -10,7 +10,7 @@ import Presentaciones from '../../pages/Presentaciones';
 
 export default function Header() {
 
-  const logo = 'https://i.ibb.co/p6V41zFh/caputblanco.png';
+  const logo = '../src/assets/images/Recurso_3.png';
 
 
   return (
@@ -52,15 +52,6 @@ export default function Header() {
         <Link to='/'>
           <img alt='caputlogo' src={logo} className='headerlogo' href='index.html' />
         </Link>
-
-        <header className='logocaput'>
-          <Link to='/proyectos' element={<Proyectos />}>Proyectos</Link>|
-          <Link to='/residencias' elemnt={<Residencias />}>Residencias</Link>|
-          <Link to='charlasytalleres' element={<CharlasTalleres />}>Charlas y Talleres</Link>|
-          <Link to='/exploraciones' element={<Exploraciones />}>Exploraciones</Link>|
-          <Link to='/acciones' element={<Acciones />}>Acciones</Link>|
-          <Link to='/presentaciones' element={<Presentaciones />}>Presentaciones</Link>
-        </header>
         <hr />
       </Container>
     </>

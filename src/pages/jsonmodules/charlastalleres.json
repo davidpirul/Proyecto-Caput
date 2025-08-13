@@ -1,66 +1,133 @@
 [
   {
     "id": 2016,
-    "nombre": "Acción 1",
-    "descripcion": "Descripción de la acción 1",
-    "fecha_inicio": "2023-01-01",
-    "fecha_fin": "2023-12-31",
-    "estado": "En progreso"
+    "proyecto_1": {
+      "nombre": ""
+    }
   },
   {
     "id": 2017,
-    "nombre": "Acción 2",
-    "descripcion": "Descripción de la acción 2",
-    "fecha_inicio": "2023-02-01",
-    "fecha_fin": "2023-11-30",
-    "estado": "Pendiente"
+    "proyecto_1": {
+      "nombre": "Licuadora Gráfica",
+      "descripcion": "Talleres independientes sobre gráfica experimental “Licuadora Gráfica”. En Taller CAPUT, Iquique.",
+      "imagen_1": "https://i.ibb.co/sDtM8WM/461977010-3801618056777915-5679501218458894803-n.jpg",
+      "imagen_2": "https://i.ibb.co/B23xVM1R/461968423-3801618176777903-2223182061009588151-n.jpg",
+      "imagen_3": "https://i.ibb.co/zVmb0Jxx/461948386-3801619170111137-2467865309882463499-n.jpg",
+      "imagen_4": "https://i.ibb.co/XfNbnNNJ/461952954-3801618180111236-3539692678412605606-n.jpg",
+      "imagen_5": "https://i.ibb.co/kgZMbZ1b/461968423-3801618796777841-3084812369486115286-n.jpg",
+      "imagen_6": "https://i.ibb.co/sdzHFk4f/461986930-3801619403444447-8295091592430185387-n.jpg",
+      "iamgen_7": "https://i.ibb.co/gF9fmrxL/licuadora-grafica-22.jpg",
+      "iamgen_8": "https://i.ibb.co/dssm6VM1/Licuadora.jpg",
+      "imagen_9": "https://i.ibb.co/TxWDdd1t/461953553-3801618300111224-5447703620436681996-n.jpg",
+      "imagen_10": "https://i.ibb.co/dwWN2GSk/461947953-3801618296777891-5326740441609722706-n.jpg"
+    },
+    "proyecto_2": {
+      "nombre": "Arica",
+      "descripcion": "Ponencia y taller sobre metodologías creativas y colaborativas en Seminario de Educación Artística, para el Consejo Regional de las Culturas y las Artes, Arica y Parinacota. Chile"
+    }
   },
   {
     "id": 2018,
-    "nombre": "Acción 3",
-    "descripcion": "Descripción de la acción 3",
-    "fecha_inicio": "2023-03-01",
-    "fecha_fin": "2023-10-31",
-    "estado": "Completada"
+    "proyecto_1": {
+      "nombre": "Raíz",
+      "descripcion": "Ponencia y Laboratorio sobre gráfica experimental y sus infinitas posibilidades. En 1º Congreso de Educación Artística de Tarapacá, RAÍZ. Ministerio de las Culturas, las Artes y el Patrimonio.",
+      "imagen_1": "https://i.ibb.co/35jqXqqc/Limpia-el-patrimonio.png",
+      "imagen_2": "https://i.ibb.co/HTwpHDcj/46503938-358502738243378-5243487046382649344-n.jpg",
+      "iamgen_3": "https://i.ibb.co/wFqhQVDN/46518640-358502764910042-4155403020911247360-n.jpg"
+    },
+    "proyecto_2": {
+      "nombre": "Feria del Libro",
+      "descripcion": "Taller de gráfica experimental en la 8º Feria del Libro de Iquique. En el subterráneo de Mall Las Américas. Ministerio de las Culturas, las Artes y el Patrimonio y Universidad Arturo Prat. Iquique.",
+      "parrafo_1": "Como una manera de conmemorar el día del libro, nos propusimos fomentar el ejercicio de hacer libros. En este caso, fanzines.",
+      "parrafo_2": "Por medio de distintas herramientas, como timbres, máquina de escribir, lápices y otros artículos de la estampa, se convocó a niñeces y adultos a confeccionar su propio imaginario por medio de la creación de imágenes y textos. ",
+      "imagen_1": "https://i.ibb.co/QjXSmT3f/46501700-2209562902650113-3205914330201587712-n.jpg",
+      "imagen_2": "https://i.ibb.co/0RzTsKc1/46526229-2209562929316777-2172331979427545088-n.jpg",
+      "imagen_3": "https://i.ibb.co/XrQbZKw6/46750705-2209562829316787-3167984855535321088-n.jpg",
+      "imagen_4": "https://i.ibb.co/nNwVMZ3R/46755371-2209562765983460-6016355669584642048-n.jpg",
+      "imagen_5": "https://i.ibb.co/S7n5z3wD/46775483-2209563075983429-4164856033476345856-n.jpg",
+      "imagen_6": "https://i.ibb.co/q3mD1nKV/46796538-2209563055983431-9138044346786906112-n.jpg",
+      "imagen_7": "https://i.ibb.co/MyBTnHh1/46787286-2209562992650104-1743015329216331776-n.jpg"
+    },
+    "proyecto_3": {
+      "nombre": "Intercambios CED",
+      "parrafo_1": "xA través de una reunión con distintos colectivos de diversos lugares de Chile y el extranjero, es que se presentaron algunas de las acciones que Caput lleva a cabo, con el objetivo de dar a conocer las prácticas situadas y de compartir experiencias con colegas del área."
+    },
+    "proyecto_4": {
+      "nombre": "Talleres en Casa",
+      "descripcion": "Sobre artes combinadas con ciencias exactas. Iquique, Chile.",
+      "parrafo_1": "Talleres independientes sobre artes aplicadas. En Taller CAPUT, Iquique: Gráfica en relación a técnicas experimentales, Bordado en relación a temáticas feministas, Collage en relación a signos decoloniales, Ilustración en relación a aves del territorio",
+      "imagen_1": "https://i.ibb.co/99MGGG0F/462695714-3808723402734047-5758973488719760315-n.jpg",
+      "imagen_2": "https://i.ibb.co/jZLJSCdm/462625442-3808286686111052-2025741363550712983-n.jpg",
+      "imagen_3": "https://i.ibb.co/fzz4Dccy/462602700-3808245736115147-2067214519206865007-n.jpg",
+      "imagen_4": "https://i.ibb.co/gLvpmttq/462683004-3808245749448479-5307173802288106463-n.jpg",
+      "imagen_5": "https://i.ibb.co/xKspjrCd/462624421-3808286572777730-8281709530252244960-n.jpg",
+      "imagen_6": "https://i.ibb.co/KcQrRt56/462690406-3808243812782006-7355229744959445010-n.jpg",
+      "imagen_7": "https://i.ibb.co/hFcMgPC1/462589114-3808286569444397-8871204440291736229-n.jpg",
+      "imagen_8": "https://i.ibb.co/K4jM6QY/462617785-3808286549444399-1551235000739103448-n.jpg",
+      "imagen_9": "https://i.ibb.co/XxdfBfB2/462513126-3808279076111813-1974008954569950572-n.jpg"
+    },
+    "proyecto_5": {
+      "nombre": "Aconteceres",
+      "descripcion": "Mediación artística para Curatoría Itinerancia de la Colección de arte de la Galería Gabriela Mistral. Iquique, Chile.",
+      "parrago_1": "Transcurrido el tiempo de la colección de la GGM, Revuelos… trayectos de un relato expandido, se presentaron en Iquique las actividades de mediación, coordinadas por el Colectivo Caput, más el apoyo de la Red de Mediación Artística, que invitaron a diferentes sectores de la comunidad Iquiqueña a percibir el arte desde la contemporaneidad. Estas acciones se desenredan en:",
+      "titulo_1": "Revuelos",
+      "subParrafo_1": " consistió en dinámicas pedagógicas sobre la colección de arte contemporáneo por medio de distintos programas radiales de Iquique. Donde la idea es, más allá de difundir la exposición, conocer y conversar sobre el arte contemporáneo y los cruces que existen en los procesos plásticos del arte, pero también las nomenclaturas que se viven en la región norte de Chile, a modo histórico y social. Esta actividad se trata de un tipo de clase abierta que intenta generar debates y también conocimientos de una manera masiva.",
+      "titulo_2": "LABMA, Laboratorio de Mediación Artística",
+      "subParrafo_2": "fue un espacio para el mapeo colectivo acerca de la realidad socio histórica de Iquique y cómo ello influye en el pensamiento colectivo de la zona. Desde el laboratorio, junto a la RMA, nos vinculamos en un espacio dispuesto a diseñar nuevos ejes que nos permitieran, junto a los participantes (en su mayoría artistas), tener claridad acerca de ciertos contenidos del territorio que nos indujeran a cuestionarlos para deconstruir concepciones hegemónicas, y de esta manera volver a construir nuevos relatos que nos lleven a presentar todas las realidades posibles.",
+      "titulo_3": "A vuelo de pájaro",
+      "subParrafo_3": "se trata de una acción movilizadora que intentaba tener otra perspectiva de las cosas. Para ello, la actividad consistió en el traslado de todos los participantes (en su mayoría artistas) hasta otro punto no convencional de la ciudad: el marinero desconocido. Desde luego, esta otra perspectiva provocó análisis del territorio y el paisaje. Con esta experiencia los participantes confeccionaron una pregunta a una obra elegida,  que diera cuenta del desarrollo del proceso y que intensificará la presencia de otra perspectiva. Esta pregunta quedó instalada durante todo la exposición.",
+      "titulo_4": "Recreo",
+      "subParrafo_4": "está enfocada hacia el público escolar, donde se busca tener un tiempo personal y colectivo para reinterpretar las obras a la manera del juego. Los participantes se han encargado de seleccionar la obra que más les guste y volver a crearla según sus recursos, sean estos mediante coreografías, canciones, fotografías y videos, instalación de objetos contenidos en sus estuches, etc.",
+      "titulo_5": "Ronda de Citas",
+      "subParrafo_5": " fueron recepciones al espacio expositivo a cargo de las visitas guiadas de Sernatur. La actividad se enfoca en recibir a turistas nacionales para, más que explicarles las obras, dialogar en torno a las expectativas y percepciones sobre el arte contemporáneo. Para esto se les invita antes de visitar las obras, a exponer sus intereses en un papel, para luego, una vez observada la muestra, volver a inscribir sus apreciaciones sobre la misma. Lo interesante de esto, es que el papel donde señalan sus ideas se encuentra montado en el piso, por tanto deben pisarlo constantemente para entrar y salir del espacio expositivo. Quedando una impresión colectiva a base de huellas, lo que  se transforma en un proceso creativo que lo hace parte del arte contemporáneo.",
+      "titulo_6": "Cajas Curatoriales",
+      "subParrafo_6": "consistió en ejercicios vinculados al juego, donde los participantes, en este caso adultos mayores del CESFAM del área de kinesiología,  construyen discursos a partir de objetos encontrados en una caja. Estos discursos han de estar asociados al contexto local, específicamente al tiempo y al espacio. La intención es movilizar el cuerpo y la mente, para lograr una clase kinestésica.",
+      "titulo_7": "Replica Territorial",
+      "subParrafo_7": " invitamos a la artista Vania Caro a replicar su propia obra de manera colaborativa en una feria de Alto Hospicio.  La artista desarrolla, de modo simple y multidimensional, un mapa de la feria “La Quebradilla”. Lugar popular donde converge una alta cantidad de personas de Iquique y Alto Hospicio. A través de la misma ropa que venden en la feria, Vania confecciona junto a comerciantes y caseros una cartografía que da cuenta del espacio del lugar, y cuáles son los sectores más visitados. Quedando un registro categórico de la feria.",
+      "titulo_8": "Laboratorio Transdisciplinar",
+      "subParrafo_8": "creación de un laboratorio sobre reflexión y producción de textos gráficos sobre la curatoría, bajo la percepción de diversos profesionales que no fueran del circuito de las artes. Para ello estuvieron presentes sociólogxs, periodistas, profesores, sicologxs, abogados y más. Quienes visitaron la exposición para luego elegir la obra que más les gustará y a partir de ello, formularon un fanzine colectivo que dio cuenta de las distintas miradas sobre las temáticas relacionadas y cómo estas son capaces de alterar las estáticidades y configurar nuevos relatos a partir de la simbiosis.",
+      "registros": {
+        "cajasCuratoriales": {
+          "imagen_1": "https://i.ibb.co/KprFgqn0/20180620-111036.jpg",
+          "imagen_2": "https://i.ibb.co/GvQ8sRg0/20180620-104056.jpg",
+          "imagen_3": "https://i.ibb.co/vCx1VSBk/20180620-104351.jpg",
+          "imagen_4": "https://i.ibb.co/PS3xyBV/Cajas-curatoriales.jpg",
+          "imagen_5": "https://i.ibb.co/PLQRZny/20180620-103942.jpg"
+        },
+        "replicaTerritorial": {
+          "imagen_1": ""
+        }
+      }
+    }
   },
   {
     "id": 2019,
-    "nombre": "Acción 3",
-    "descripcion": "Descripción de la acción 3",
-    "fecha_inicio": "2023-03-01",
-    "fecha_fin": "2023-10-31",
-    "estado": "Completada"
+    "proyecto_1": {
+      "nombre": ""
+    }
   },
   {
     "id": 2020,
-    "nombre": "Acción 3",
-    "descripcion": "Descripción de la acción 3",
-    "fecha_inicio": "2023-03-01",
-    "fecha_fin": "2023-10-31",
-    "estado": "Completada"
+    "proyecto_1": {
+      "nombre": ""
+    }
   },
   {
     "id": 2021,
-    "nombre": "Acción 3",
-    "descripcion": "Descripción de la acción 3",
-    "fecha_inicio": "2023-03-01",
-    "fecha_fin": "2023-10-31",
-    "estado": "Completada"
+    "proyecto_1": {
+      "nombre": ""
+    }
   },
   {
     "id": 2023,
-    "nombre": "Acción 3",
-    "descripcion": "Descripción de la acción 3",
-    "fecha_inicio": "2023-03-01",
-    "fecha_fin": "2023-10-31",
-    "estado": "Completada"
+    "proyecto_1": {
+      "nombre": ""
+    }
   },
   {
     "id": 2024,
-    "nombre": "Acción 3",
-    "descripcion": "Descripción de la acción 3",
-    "fecha_inicio": "2023-03-01",
-    "fecha_fin": "2023-10-31",
-    "estado": "Completada"
+    "proyecto_1": {
+      "nombre": ""
+    }
   }
 ]

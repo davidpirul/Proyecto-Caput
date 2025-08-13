@@ -25,7 +25,7 @@ export default function Footer() {
               <img src={rocasfooter} alt='rocasfooter' />
             </div>
             <div className='list-footer'>
-              <h7>EXPERIENCIAS</h7>
+              <h6>EXPERIENCIAS</h6>
               <ul>
                 <li>Lorem, ipsum.</li>
                 <li>Lorem.</li>
@@ -38,14 +38,14 @@ export default function Footer() {
               </ul>
             </div>
             <div className='map-footer'>
-              <h7>CONTACTO</h7>
+              <h6>CONTACTO</h6>
               <p>hola@caputupac.com</p>
               <p>Direccion: Calle 43, Ciudad 3, Pais 5</p>
               <a href=""><img src={imagemap} alt="" /></a>
 
             </div>
             <div className='fundadores-list'>
-              <h7>FUNDADORES</h7>
+              <h6>FUNDADORES</h6>
               <a href="">nombreapellido.com</a>
               <a href="">nombreapellido.com</a>
             </div>

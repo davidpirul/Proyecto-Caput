@@ -1,6 +1,6 @@
-import Body from "./Body";
 import Footer from "./Footer";
 import { motion } from "framer-motion";
+import Presentacion from "./Presentacion";
 
 export default function LandingPage() {
 
@@ -17,7 +17,7 @@ export default function LandingPage() {
        animate="visible"
        variants={linkVariants}
       >
-      <Body />
+      <Presentacion />
       <Footer />
       </motion.div>
     </div>

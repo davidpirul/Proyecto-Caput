@@ -1,50 +1,146 @@
 [
   {
     "id": 2015,
-    "nombre": "Acción 1",
-    "descripcion": "Descripción de la acción 1",
-    "fecha_inicio": "2023-01-01",
-    "fecha_fin": "2023-12-31",
-    "estado": "En progreso"
+    "proyecto_1": {
+      "nombre": "No me rompan los huevos",
+      "descripcion": "Acción de arte, NO ME ROMPAN LOS HUEVOS. En colaboración con el Programa ACCIONA del Depto. Educación del MINCAP. En pro del cuidado y conservación del gaviotín chico.",
+      "parrafo_1": "Esta actividad, es una mediación socio educativa realizada durante el año 2015 en la Escuela Grumete Bolados de Caleta Chanavayita. La que, mediante su propio nombre, intenta crear dobles interpretaciones e imaginarios sobre la necesidad de salvaguardar nuestros maritorios.",
+      "parrafo_2": "Estas temáticas nos empujaron a desarrollar una labor colectiva junto a niños y niñas de 6 a 13 años, generando diversas instancias al interior y exterior de la escuela con el fin de realizar una campaña a favor del cuidado y protección del ave gaviotín chico. Quien, debido a dinámicas inapropiadas de humanos y animales, rompen sus huevos. No pudiendo defenderse ante el poder de otrxs.",
+      "parrafo_3": "Este propósito fue realizado bajo un proceso colaborativo y fue presentando por medio de acciones contemporáneas relacionadas a la recolección, como una práctica familiar heredada, otras más experimentales como la performance y la instalación, y tambíen materias comunes; afiches, escultura, dibujos, mapas y fotografías, logrando en ello un espacio pedagógicamente diverso, libre y fresco.",
+      "parrafo_4": "Este proyecto nace a partir del trabajo vinculante entre el Programa Acciona, del Ministerio de las Culturas, el CENIMA (Centro de Investigación del Medio Ambiente, de la Univ. Arturo Prat) y la Esc. De Chanavayita, con quienes buscamos visibilizar la crisis medio ambiental del borde costero local, a través de una metodología creativa que implicaba el juego, la cooperatividad y la investigación científica.",
+      "imagen_1": "https://i.ibb.co/tkYZjz7/IMG-0819.jpg",
+      "imagen_2": "https://i.ibb.co/PZKpDL2w/IMG-3747.jpg",
+      "imagen_3": "https://i.ibb.co/JWdTwfRX/IMG-0425.jpg",
+      "imagen_4": "https://i.ibb.co/V0Jb6JDw/gavio.jpg",
+      "imagen_5": "https://i.ibb.co/PGbjhP4q/IMG-0412.jpg"
+    },
+    "proyecto_2": {
+      "nombre": "Movedizo",
+      "descripcion": "Movedizo. Intervención participativa en el espacio público, mediante pegatina de mensajes de texto. Memoria Colectiva sobre terremotos del año 2014. Iquique, Chile.",
+      "parrafo_1": "Se convocó virtualmente a un público abierto residente en Iquique para el terremoto del 2014,  a generar un proceso de memoria mediante mensajes de textos que dieran cuenta de los primeros comunicados que realizaron en el estado de emergencia.",
+      "parrafo_2": "Esta acción fue impresa en las calles de la ciudad, apelando a la intervención realizada por estudiantes de la UNLP en torno a la inundación del 2014 en la misma ciudad. Creando así, estos espacios de memoria que visibilizan los cuidados, preocupaciones y alarmas en momentos de catástrofe.",
+      "imagen_1": "https://i.ibb.co/5gHLgHwk/1.jpg",
+      "imagen_2": "https://i.ibb.co/7tXpF8WQ/2.jpg",
+      "imagen_3": "https://i.ibb.co/LD4X1cMK/3.jpg",
+      "imagen_4": "https://i.ibb.co/gMJxTYYD/4.jpg",
+      "imagen_5": "https://i.ibb.co/PvrtFFRD/5.jpg",
+      "imagen_6": "https://i.ibb.co/cScVZq0M/6.jpg"
+    }
   },
   {
     "id": 2016,
-    "nombre": "Acción 2",
-    "descripcion": "Descripción de la acción 2",
-    "fecha_inicio": "2023-02-01",
-    "fecha_fin": "2023-11-30",
-    "estado": "Pendiente"
+    "proyecto_1": {
+      "nombre": "Planeta Papa",
+      "descripcion": "Planeta Papa se realizó en el marco del programa Acciona, del Ministerio de las Culturas, las Artes y el Patrimonio.",
+      "parrafo_1": "Como una multi mediación es que el año 2017 llevamos a cabo, junto a niñxs de 7 y 8 años de la Escuela Centenario de Iquique, ideas asociadas a la realidad migrante que vive el establecimiento y el barrio en el que está inserto.",
+      "parrafo_2": "Desde un comienzo la intención siempre fue conversar con lxs participantes sobre su contexto, enfatizando en la falta de unión y solidaridad que existe entre países a pesar de tener tantas cosas en común. Lo que pudiera darnos luces de sus propias relaciones. Para aunar estas percepciones, propusimos imaginar - de manera grupal - banderas que contuvieran diseños sobre lo que más les identificara. En ese sentido, lo que les gustase comer, hacer y por supuesto, divertirse.",
+      "parrafo_3": "Trabajamos en distintas actividades que nos entregaran ideas, como por ej; dibujar, conversar, cantar, jugar, timbrar, recortar revistas y papeles distintos, crear formas, entrevistar a sus familias, y más.",
+      "parrafo_4": "Una vez que se reunió material creativo, todxs se dispusieron a inventar grandes banderas que comunicaran sus fusiones. Estábamos en ese proceso, cuando descubrimos a unx de lxs niñxs creando una figura distinta, parecida a un planeta por el anillo que rodeaba esa forma casi redonda. Fue  entonces cuando nos comenta sobre su invención… se trataba efectivamente de un planeta, pero un “planeta papa”. ¿Cómo así? preguntamos. Si, dijo… un planeta feliz, donde estan todxs, y comemos distintas papas.",
+      "parrafo_5": "En trabajos anteriores, hicimos que trabajaran con sus comida preferida, y la papa era el alimento más común entre todxs, quienes eran provenientes de distintos países de América Látina. Desde esa lógica, comprendimos o alcanzamos el significado de la papa como tal. Una raíz que cosecha enormes diversidades de tubérculos, como fuente principal de la alimentación en Latinoamérica. Con esa convicción, respiramos este proyecto. El que se transformó en una gran bandera como gesto de unión y solidaridad ante las desigualdades absurdas que sufrimos al ser otrx. Sin embargo, este conjunto de grandes telas contaminadas por cientos de elementos identificadores, terminó construyéndose al estilo Minecraft, siendo estas animaciones, referencias para quienes piensan y sienten la idea de “bandera” como un cuerpo dinámico, armable y rompible. El cual defendemos y festejamos.",
+      "imagen_1": "https://i.ibb.co/wrJkKTS4/IMG-1608.jpg",
+      "imagen_2": "https://i.ibb.co/Q3kWDysR/IMG-1612.jpg",
+      "imagen_3": "https://i.ibb.co/nqKbTHRR/15319317-1833185483621192-5751711301188738276-n.jpg",
+      "imagen_4": "https://i.ibb.co/9m27LVBd/IMG-2290.jpg",
+      "imagen_5": "https://i.ibb.co/YFcK5gvd/IMG-2296.jpg",
+      "imagen_6": "https://i.ibb.co/hRBdLF82/PLANETA-PAPA02.jpg"
+    }
   },
   {
     "id": 2017,
-    "nombre": "Acción 3",
-    "descripcion": "Descripción de la acción 3",
-    "fecha_inicio": "2023-03-01",
-    "fecha_fin": "2023-10-31",
-    "estado": "Completada"
+    "proyecto_1": {
+      "nombre": "Zarapitos",
+      "descripcion": "Mediación artística para FAVAT, recibimiento de las aves ZARAPITOS, en Curaco de Vélez, Chiloé. Chile.",
+      "parrafo_1": "La fiesta celebra la llegada de las aves zarapitos. Los cuales fueron la motivación para cortar, coser e imaginar formas que dieran vuelo a este movido evento. ",
+      "parrafo_2": "Creación de un escenario textil para el Festival de Aves de Curaco de Velez, Chiloe.",
+      "imagen_1": "https://i.ibb.co/RGkGNjWr/461759246-3800640766875644-7642332154374312761-n.jpg",
+      "imagen_2": "https://i.ibb.co/PZDyYWj0/461919293-3800640770208977-6802972355121772516-n.jpg",
+      "imagen_3": "https://i.ibb.co/TM2dcJwV/461866731-3800640783542309-1171198308438237434-n.jpg",
+      "imagen_4": "https://i.ibb.co/5hTwKssh/ZARAPITOS.jpg"
+    },
+    "proyecto_2": {
+      "nombre": "El Comedor",
+      "descripcion": "Mediación artística EL COMEDOR. Espacio de nutrición en torno a la diversidad del alimento y el dibujo. Ex Estación de ferrocarriles de Iquique. Semana de las Artes Visuales. CRCA.",
+      "parrafo_1": "Mediación culinaria en medio de la ex estación de ferrocarriles de Iquique. Ahí donde durante tantos años se produjeron intercambios de distinto tipo, nos situamos para comer un plato de lentejas al más puro estilo Iquiqueño (un seco de lentejas +arroz). Donde se fusionan sures y nortes de nuestra historia.",
+      "parrafo_2": "Este comedor popular invitó a la comunidad transeúnte a degustar y compartir un almuerzo casero, a ver el documental Apthapi, tal cual TV doméstica, y a sortear la creación a través de un dibujo en el individual de cada plato, mediante la consigna realizada por el colectivo MICH.",
+      "imagen_1": "https://i.ibb.co/WNq05YvS/20133.jpg",
+      "imagen_2": "https://i.ibb.co/0jQrPxTy/27140.jpg",
+      "imagen_3": "https://i.ibb.co/nN62Hfkv/29142.jpg",
+      "imagen_4": "https://i.ibb.co/QF7sTfd9/32145.jpg",
+      "imagen_5": "https://i.ibb.co/vvB934Xx/35148.jpg",
+      "imagen_6": "https://i.ibb.co/WWbXjHfv/36149.jpg",
+      "imagen_7": "https://i.ibb.co/Ps67kXMk/El-comedor.jpg"
+    },
+    "proyecto_3": {
+      "nombre": "Caldo de Cabeza",
+      "descripcion": "Mediación artística CALDO DE CABEZA. Espacio de nutrición en torno a la diversidad del alimento y el mar. Playa Bellavista de Iquique. Semana de las Artes Visuales. CRCA.",
+      "parrafo_1": "Extensión playera. Se nos ocurrió montar un toldo-cocina en la playa del barrio, tal cual campamento de verano. Ahí compartimos, junto a vecinxs, un rico caldo de cabeza de pescado. Una comida típica y familiar.",
+      "imagen_1": "https://i.ibb.co/fdQ13KYw/DSC-0276-1.jpg",
+      "imagen_2": "https://i.ibb.co/zWCvwbw4/DSC-0306-1.jpg",
+      "imagen_3": "https://i.ibb.co/hRzxhwc9/Captura-de-pantalla-2018-06-07-a-las-9-26-03-p-m.png"
+    }
   },
   {
     "id": 2021,
-    "nombre": "Acción 3",
-    "descripcion": "Descripción de la acción 3",
-    "fecha_inicio": "2023-03-01",
-    "fecha_fin": "2023-10-31",
-    "estado": "Completada"
+    "proyecto_1": {
+      "nombre": "La Poblete",
+      "descripcion": "Trabajo comunitario junto al Barrio La Poblete, Iquique.",
+      "parrafo_1": "Activación doméstica. Esta actividad se basó en generar un espacio de encuentro en torno a formatos de comidas locales. Para ello, ambientamos la ex estación de ferrocarriles de la ciudad, la cual se encuentra en abandono, para darle vida y nutrirla por medio de un almuerzo colectivo al estilo Iquiqueño. Junto a transeúntes del sector comimos un seco de lentejas con arroz, conversamos y dibujamos sobre la necesidad de compartir los alimentos y vimos un documental como si hubiésemos sido familia.",
+      "imagen_1": "https://i.ibb.co/tpWx5cV5/Acopio.jpg",
+      "imagen_2": "https://i.ibb.co/twzHCfMd/Infusion-Vecinal.jpg",
+      "imagen_3": "https://i.ibb.co/FL3fQB0L/Cine.jpg",
+      "imagen_4": "https://i.ibb.co/dwqV8Tkn/d.png",
+      "imagen_5": "https://i.ibb.co/LzLbfXtP/v.png",
+      "imagen_6": "https://i.ibb.co/8DwD5wzP/n.png",
+      "imagen_7": "https://i.ibb.co/VWsxd83w/l.png",
+      "imagen_8": "https://i.ibb.co/TxRQWgbh/c.png",
+      "imagen_9": "https://i.ibb.co/zWnJ6RkY/j.png",
+      "imagen_10": "https://i.ibb.co/3y1f5z7X/g.png",
+      "imagen_11": "https://i.ibb.co/7p1f3z8H/o.png",
+      "imagen_12": "https://i.ibb.co/ZRyNRxhd/f.png",
+      "imagen_13": "https://i.ibb.co/b5J6Zdkt/Cabildo-Barrial-El-Sillazo-Iqq-2019-JPG.jpg",
+      "imagen_14": "https://i.ibb.co/9Hrg8vJK/i.png",
+      "imagen_15": "https://i.ibb.co/fzjq4bJJ/b.png",
+      "imagen_16": "https://i.ibb.co/qLv9c4qD/e.png",
+      "imagen_17": "https://i.ibb.co/vCr2mnZn/a.png",
+      "imagen_18": "https://i.ibb.co/gL77Pfcv/p.png",
+      "imagen_19": "https://i.ibb.co/MxFqrsP3/infusion02.jpg",
+      "imagen_20": "https://i.ibb.co/XrrBLJp5/infusion01.jpg",
+      "imagen_21": "https://i.ibb.co/dsC5Nb71/Imagen-1.png",
+      "imagen_22": "https://i.ibb.co/xqr3HW6r/k.png",
+      "imagen_23": "https://i.ibb.co/cSptgKb8/xx.png",
+      "imagen_24": "https://i.ibb.co/p6WYnVv6/Sillazoo.jpg"
+    },
+    "proyecto_2": {
+      "nombre": "Cartas Abiertas",
+      "descripcion": "Participación en “Cartas Abiertas”. Ejercicios de mediación en Centro Cultural de España, Santiago. Chile."
+    }
   },
   {
     "id": 2023,
-    "nombre": "Acción 3",
-    "descripcion": "Descripción de la acción 3",
-    "fecha_inicio": "2023-03-01",
-    "fecha_fin": "2023-10-31",
-    "estado": "Completada"
+    "proyecto_1": {
+      "nombre": "La ciudad como texto",
+      "descripcion": "Acciones sobre diálogos entre el textil como texto y la ciudad. San José, Costa Rica.",
+      "imagen_1": "https://i.ibb.co/BV4snL4X/IMG-1931.jpg",
+      "imagen_2": "https://i.ibb.co/wFGD95sw/IMG-1927.jpg",
+      "imagen_3": "https://i.ibb.co/Kx6js1qN/IMG-1954.jpg",
+      "imagen_4": "https://i.ibb.co/RGF9kbSM/IMG-1909.jpg",
+      "imagen_5": "https://i.ibb.co/hRNTB6Vz/IMG-1900.jpg",
+      "imagen_6": "https://i.ibb.co/fzFKDbYc/IMG-1906.jpg",
+      "imagen_7": "https://i.ibb.co/Xr4k5m7x/a.jpg",
+      "imagen_8": "https://i.ibb.co/r2MPN9c6/b.jpg"
+    }
   },
   {
     "id": 2024,
-    "nombre": "Acción 3",
-    "descripcion": "Descripción de la acción 3",
-    "fecha_inicio": "2023-03-01",
-    "fecha_fin": "2023-10-31",
-    "estado": "Completada"
+    "proyecto_1": {
+      "nombre": "Huajache",
+      "descripcion": "II Versión Torneo de Piqueros. Caleta Río Seco. Iquique, Chile.",
+      "imagen_1": "https://i.ibb.co/2Yyb24vc/MVI-9093-00-03-57-09-Imagen-fija001.jpg",
+      "imagen_2": "https://i.ibb.co/21sgFvkf/MVI-9093-00-03-04-15-Imagen-fija002.jpg",
+      "imagen_3": "https://i.ibb.co/kgTLLcrL/IMG-20240225-WA0019.jpg",
+      "imagen_4": "https://i.ibb.co/nNrXY3m7/9-Huajache-Torneo-de-piqueros.jpg",
+      "imagen_5": "https://i.ibb.co/TqHvFMFf/IMG-20240225-WA0028.jpg",
+      "imagen_6": "https://i.ibb.co/DgvDD7t0/IMG-20240225-WA0022.jpg"
+    }
   }
 ]

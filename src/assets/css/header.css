@@ -1,10 +1,10 @@
 body {
-background-color: #303030;
-color: #f9f9f9
+background-color: #00b2ff;
+color: #2e3192;
 }
 
 .toggleColor {
-  background-color: #ffe400;
+  background-color: #ffea2c;
 }
 
 .navcont {
@@ -29,7 +29,7 @@ color: #f9f9f9
 }
 
 .logocaput a:hover {
-  color: #f9f9f9;
+  color: #ffe600;
   text-decoration: underline;
 }
 
