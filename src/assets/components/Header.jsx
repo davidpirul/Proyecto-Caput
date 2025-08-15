@@ -11,6 +11,8 @@ import Presentaciones from '../../pages/Presentaciones';
 export default function Header() {
 
   const logo = '../src/assets/images/Recurso_3.png';
+  const subtitulo = '../src/assets/images/Recurso_2.png';
+  const logogiratorio1 = '../src/assets/images/Recurso_6.png';
 
 
   return (
@@ -41,18 +43,27 @@ export default function Header() {
 
                 </Navbar.Offcanvas>
               </Container>
+
             </Navbar>
           ))}
-
-
-
         </div>
+
+        <img alt='imagengiratoria' src={logogiratorio1} className='logogiratorio_px'/>
+
+        <Container>
+          <Link to='/'>
+            <img alt='caputlogo' src={logo} className='headerlogo_px' href='index.html' />
+          </Link>
+        </Container>
       </div>
+      <div>
+        <img alt='subtitulocaput' src={subtitulo} className='sublogo_px' />
+      </div>
+
       <Container>
         <Link to='/'>
           <img alt='caputlogo' src={logo} className='headerlogo' href='index.html' />
         </Link>
-        <hr />
       </Container>
     </>
   );

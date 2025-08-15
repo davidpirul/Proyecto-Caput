@@ -6,14 +6,27 @@ export default function Presentacion() {
   const perfilLoreto = 'https://i.ibb.co/TxVNxTwG/imagen2-centrada-400x400.jpg';
   const perfilCamilo = 'https://i.ibb.co/TDcnQdmR/imagen1-centrada-400x400.jpg';
   const imagenDeFondo = 'https://i.ibb.co/DPxfLYXx/Recurso-22.png';
-
+  const decoracion_1 = './src/assets/images/Recurso_19.png';
+  const decoracion_2 = './src/assets/images/Recurso_6.png';
+  const decoracion_3 = './src/assets/images/Recurso_5.png';
+  const decoracion_4 = './src/assets/images/Recurso_4.png';
 
   return (
     <>
+      <div className='sub_division'>
+        <img src={decoracion_1} className='decoracion_1' alt='decoracion_1' />
+      </div>
+      <div className='pre_proyectos'>
+
+      </div>
+      <div className='imagenes_decorativas'>
+        <div><img src={decoracion_2} alt='Decoracion 1' className='iddec_1'/></div>
+        <div><img src={decoracion_3} alt='Decoracion 2' className='iddec_2'/></div>
+        <div><img src={decoracion_4} alt='Decoracion 3' className='iddec_3'/></div>  
+      </div>
       <div className='armado-texto'>
         <div className='tit-presentacion'>
-          <h1>CAPUT TUPAC</h1>
-          <h6>destruir x construir</h6>
+          <h6>declaracion</h6>
         </div>
         <div className='texto-presentacion'>
           <p>

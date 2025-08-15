@@ -8,9 +8,11 @@
   width: 90%;
 }
 
+
 .tit-presentacion {
   width: 55%;
   padding: 5%;
+  flex-direction: row;
 }
 
 .armado-texto h1 {
@@ -20,10 +22,16 @@
   position: relative;
 }
 
+.armado-texto h3 {
+  font-size: 1.5em;
+  color: #ffe400;
+}
+
 .armado-texto h6 {
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-style: italic;
   color: #ffe400;
+  text-align: left;
 
 }
 
@@ -122,11 +130,42 @@
 }
 
 @media (max-width: 576px) {
+  .sub_division {
+    width: 100%;
+    height: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff2cf;
+  }
+
+  .decoracion_1 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .imagenes_decorativas {
+    height: 6em;
+    width: 100%;
+    background-color: #303030;
+    display: flex;
+  }
+  .imagenes_decorativas img {
+    height: 100%;
+    width: 100%;
+  }
+
   .div-perfiles {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
+.pre_proyectos {
+  width: auto;
+  height: 50em;
+  background-color: #fff2cf;
+}
 
   .armado-texto {
     flex-direction: column;
@@ -149,14 +188,19 @@
   }
 
   .img-rot-fondo {
-    position: absolute; /* Posiciona la imagen en el fondo */
+    position: absolute;
+    /* Posiciona la imagen en el fondo */
     top: 93%;
     left: 12%;
-    width: 70%; /* Asegura que ocupe todo el ancho */
-    object-fit: cover; /* Ajusta la imagen sin deformarla */
-    z-index: -1; /* Envía la imagen al fondo */
+    width: 70%;
+    /* Asegura que ocupe todo el ancho */
+    object-fit: cover;
+    /* Ajusta la imagen sin deformarla */
+    z-index: -1;
+    /* Envía la imagen al fondo */
     overflow: hidden;
-    animation: rotate-bg 18s linear infinite; /* Aplica la animación de rotación */
+    animation: rotate-bg 18s linear infinite;
+    /* Aplica la animación de rotación */
   }
 
   .cont-perfiles {
