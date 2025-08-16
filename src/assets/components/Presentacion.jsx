@@ -6,7 +6,7 @@ export default function Presentacion() {
   const perfilLoreto = 'https://i.ibb.co/TxVNxTwG/imagen2-centrada-400x400.jpg';
   const perfilCamilo = 'https://i.ibb.co/TDcnQdmR/imagen1-centrada-400x400.jpg';
   const imagenDeFondo = 'https://i.ibb.co/DPxfLYXx/Recurso-22.png';
-  const decoracion_1 = './src/assets/images/Recurso_19.png';
+  const decoracion_1 = 'https://i.ibb.co/8HyKc0N/Recurso-19.png';
   const decoracion_2 = './src/assets/images/Recurso_6.png';
   const decoracion_3 = './src/assets/images/Recurso_5.png';
   const decoracion_4 = './src/assets/images/Recurso_4.png';

@@ -10,9 +10,9 @@ import Presentaciones from '../../pages/Presentaciones';
 
 export default function Header() {
 
-  const logo = '../src/assets/images/Recurso_3.png';
-  const subtitulo = '../src/assets/images/Recurso_2.png';
-  const logogiratorio1 = '../src/assets/images/Recurso_6.png';
+  const logo = 'https://i.ibb.co/wFXrqpdg/Recurso-3.png';
+  const subtitulo = 'https://i.ibb.co/NnyqGXpB/Recurso-2.png';
+  const logogiratorio1 = 'https://i.ibb.co/d0MQDJvh/Recurso-6.png';
 
 
   return (
