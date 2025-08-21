@@ -10,6 +10,8 @@ export default function Presentacion() {
   const decoracion_2 = './src/assets/images/Recurso_6.png';
   const decoracion_3 = './src/assets/images/Recurso_5.png';
   const decoracion_4 = './src/assets/images/Recurso_4.png';
+  const instagram = 'https://i.ibb.co/ynNhqmNZ/Recurso-15.png';
+  const youtube = 'https://i.ibb.co/4g0XxcF0/Recurso-16.png';
 
   return (
     <>
@@ -20,13 +22,13 @@ export default function Presentacion() {
 
       </div>
       <div className='imagenes_decorativas'>
-        <div><img src={decoracion_2} alt='Decoracion 1' className='iddec_1'/></div>
-        <div><img src={decoracion_3} alt='Decoracion 2' className='iddec_2'/></div>
-        <div><img src={decoracion_4} alt='Decoracion 3' className='iddec_3'/></div>  
+        <div><img src={decoracion_2} alt='Decoracion 1' className='iddec_1' /></div>
+        <div><img src={decoracion_3} alt='Decoracion 2' className='iddec_2' /></div>
+        <div><img src={decoracion_4} alt='Decoracion 3' className='iddec_3' /></div>
       </div>
       <div className='armado-texto'>
         <div className='tit-presentacion'>
-          <h6>declaracion</h6>
+          <h6>Statement</h6>
         </div>
         <div className='texto-presentacion'>
           <p>
@@ -40,7 +42,6 @@ export default function Presentacion() {
           </p>
         </div>
       </div>
-      <img src={imagenDeFondo} className='img-rot-fondo' alt='recurso de fondo' />
       <Container fluid='false'>
         <div className='cont-perfiles'>
           <div className='div-perfiles'>
@@ -48,14 +49,20 @@ export default function Presentacion() {
               <img src={perfilLoreto} className='photo-perfil' alt='photo-perfil-Loreto' />
               <div className='txt-profiles'>
                 <h5>Loreto Caput</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nulla quos sapiente? Ullam, placeat amet!</p>
+              </div>
+              <div>
+                <img src={instagram} className='redes' alt='Instagram' />
+                <img src={youtube} className='redes' alt='YouTube' />
               </div>
             </div>
             <div className='perfil'>
               <img src={perfilCamilo} className='photo-perfil' alt='photo-perfil-Camilo' />
               <div className='txt-profiles'>
                 <h5>Camilo Caput</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nulla quos sapiente? Ullam, placeat amet!</p>
+              </div>
+              <div>
+                <img src={instagram} className='redes' alt='Instagram' />
+                <img src={youtube} className='redes' alt='YouTube' />
               </div>
             </div>
           </div>

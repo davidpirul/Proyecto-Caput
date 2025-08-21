@@ -90,7 +90,7 @@
 
 .div-perfiles {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   background-color: #fff;
@@ -101,17 +101,13 @@
 }
 
 .perfil {
-  width: 50%;
+  width: 95%;
   display: flex;
   align-items: center;
 }
 
-.perfil p {
-  font-size: 1.17em;
-}
-
 .perfil h5 {
-  font-size: 1.92em;
+  font-size: 1.3em;
   margin-bottom: 1rem;
 }
 
@@ -122,11 +118,13 @@
 }
 
 .photo-perfil {
-  width: 350px;
+  width: 175px;
   height: auto;
   padding: 2em;
   object-fit: cover;
   object-position: center;
+  border-radius: 50%;
+
 }
 
 @media (max-width: 576px) {
@@ -144,32 +142,35 @@
     width: 100%;
     object-fit: cover;
   }
+
   .imagenes_decorativas {
     height: 6em;
     width: 100%;
     background-color: #303030;
     display: flex;
   }
+
   .imagenes_decorativas img {
     height: 100%;
     width: 100%;
+    background-color: #00b2ff;
   }
 
   .div-perfiles {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
-.pre_proyectos {
-  width: auto;
-  height: 50em;
-  background-color: #fff2cf;
-}
+  .pre_proyectos {
+    width: auto;
+    height: 50em;
+    background-color: #fff2cf;
+  }
 
   .armado-texto {
     flex-direction: column;
-    width: 95%;
+    width: auto;
     height: auto;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -180,11 +181,25 @@
     width: 100%;
     font-size: 0.9em;
     text-align: center;
+    background-color: #ffe400;
+
+  }
+
+  .tit-presentacion h6 {
+    color: #2e3192;
   }
 
   .texto-presentacion {
     font-size: 0.8em;
+    width: 100%;
+    color: #2e3192;
+    background-color: #fff2cf;
+   justify-content: center;
+  }
+
+  .texto-presentacion p {
     width: 95%;
+    
   }
 
   .img-rot-fondo {
@@ -206,11 +221,6 @@
   .cont-perfiles {
     height: auto;
     flex-direction: column;
-  }
-
-  .div-perfiles {
-    flex-direction: column;
-    height: auto;
   }
 
   .perfil {
