@@ -8,11 +8,9 @@
   width: 90%;
 }
 
-
 .tit-presentacion {
-  width: 55%;
-  padding: 5%;
-  flex-direction: row;
+padding-top: 2%;
+padding-bottom: 2%;
 }
 
 .armado-texto h1 {
@@ -22,24 +20,11 @@
   position: relative;
 }
 
-.armado-texto h3 {
-  font-size: 1.5em;
-  color: #ffe400;
-}
-
-.armado-texto h6 {
-  font-size: 1.5em;
-  font-style: italic;
-  color: #ffe400;
-  text-align: left;
-
-}
-
 .texto-presentacion {
   text-align: justify;
   width: 38%;
   font-size: 1em;
-  padding: 1%;
+  padding: 4%;
 }
 
 .texto-presentacion p {
@@ -72,11 +57,6 @@
   }
 }
 
-.img-ideas {
-  max-width: 85%;
-  margin: 2rem;
-}
-
 .div-presentacion {
   margin-top: 7rem;
   margin-bottom: 7rem;
@@ -85,7 +65,6 @@
 
 .cont-perfiles {
   display: flex;
-  height: 100%;
 }
 
 .div-perfiles {
@@ -93,22 +72,17 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
-  color: #303030;
-  width: 100%;
-  height: 75vh;
+  height: auto;
   z-index: 1;
 }
 
 .perfil {
-  width: 95%;
   display: flex;
   align-items: center;
 }
 
 .perfil h5 {
   font-size: 1.3em;
-  margin-bottom: 1rem;
 }
 
 .txt-profiles {
@@ -120,7 +94,7 @@
 .photo-perfil {
   width: 175px;
   height: auto;
-  padding: 2em;
+  padding: 0.6em;
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
@@ -130,7 +104,6 @@
 @media (max-width: 576px) {
   .sub_division {
     width: 100%;
-    height: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -144,16 +117,24 @@
   }
 
   .imagenes_decorativas {
-    height: 6em;
     width: 100%;
-    background-color: #303030;
+    height: auto;
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: end;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+  }
+
+  .iddec_1 {
+    animation: rotate-bg 40s linear infinite;
+    animation-direction: reverse;
   }
 
   .imagenes_decorativas img {
     height: 100%;
     width: 100%;
-    background-color: #00b2ff;
   }
 
   .div-perfiles {
@@ -172,21 +153,16 @@
     flex-direction: column;
     width: auto;
     height: auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
     align-items: center;
   }
 
   .tit-presentacion {
     width: 100%;
-    font-size: 0.9em;
+    font-size: 3em;
+    font-weight: 900;
     text-align: center;
     background-color: #ffe400;
 
-  }
-
-  .tit-presentacion h6 {
-    color: #2e3192;
   }
 
   .texto-presentacion {
@@ -194,36 +170,36 @@
     width: 100%;
     color: #2e3192;
     background-color: #fff2cf;
-   justify-content: center;
-  }
-
-  .texto-presentacion p {
-    width: 95%;
-    
-  }
-
-  .img-rot-fondo {
-    position: absolute;
-    /* Posiciona la imagen en el fondo */
-    top: 93%;
-    left: 12%;
-    width: 70%;
-    /* Asegura que ocupe todo el ancho */
-    object-fit: cover;
-    /* Ajusta la imagen sin deformarla */
-    z-index: -1;
-    /* Envía la imagen al fondo */
-    overflow: hidden;
-    animation: rotate-bg 18s linear infinite;
-    /* Aplica la animación de rotación */
+    justify-content: center;
   }
 
   .cont-perfiles {
-    height: auto;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .perfil {
     flex-direction: column;
+  }
+
+  .perfilLoreto {
+    background-color: #2e3192;
+    color: #00b2ff;
+  }
+
+  .redes-sociales-loreto {
+    color: #00b2ff;
+  }
+
+  .ornamentos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ornamento1 {
+    width: 100%;
+  }
+
+  .ornamento2 {
+    background-color: #2e3192;
   }
 }

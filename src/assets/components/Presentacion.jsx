@@ -12,6 +12,9 @@ export default function Presentacion() {
   const decoracion_4 = './src/assets/images/Recurso_4.png';
   const instagram = 'https://i.ibb.co/ynNhqmNZ/Recurso-15.png';
   const youtube = 'https://i.ibb.co/4g0XxcF0/Recurso-16.png';
+  const email = 'https://i.ibb.co/DHXWTxt3/Recurso-14.png';
+  const ornamento1 = 'https://i.ibb.co/q3fsqpLT/Recurso-7.png';
+  const ornamento2 = 'https://i.ibb.co/0RYVNmfS/Recurso-8.png';
 
   return (
     <>
@@ -28,7 +31,7 @@ export default function Presentacion() {
       </div>
       <div className='armado-texto'>
         <div className='tit-presentacion'>
-          <h6>Statement</h6>
+          <p>statement</p>
         </div>
         <div className='texto-presentacion'>
           <p>
@@ -45,26 +48,32 @@ export default function Presentacion() {
       <Container fluid='false'>
         <div className='cont-perfiles'>
           <div className='div-perfiles'>
-            <div className='perfil'>
+            <div className='perfilLoreto'>
               <img src={perfilLoreto} className='photo-perfil' alt='photo-perfil-Loreto' />
               <div className='txt-profiles'>
-                <h5>Loreto Caput</h5>
+                <h5>LORETO GONZALEZ</h5>
               </div>
-              <div>
+              <div className='redes-sociales-loreto'>
                 <img src={instagram} className='redes' alt='Instagram' />
                 <img src={youtube} className='redes' alt='YouTube' />
+                <img src={email} className='redes' alt='Email' />
               </div>
             </div>
-            <div className='perfil'>
+            <div className='perfilCamilo'>
               <img src={perfilCamilo} className='photo-perfil' alt='photo-perfil-Camilo' />
               <div className='txt-profiles'>
-                <h5>Camilo Caput</h5>
+                <h5>CAMILO ORTEGA</h5>
               </div>
-              <div>
+              <div className='redes-sociales-camilo'>
                 <img src={instagram} className='redes' alt='Instagram' />
                 <img src={youtube} className='redes' alt='YouTube' />
+                <img src={email} className='redes' alt='Email' />
               </div>
             </div>
+          </div>
+          <div className='ornamentos'>
+            <img src={ornamento1} className='ornamento1' alt='ornamento1' />
+            <img src={ornamento2} className='ornamento2' alt='ornamento2' />
           </div>
         </div>
       </Container>
